@@ -3,6 +3,7 @@ const cypressSplit = require('cypress-split')
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
+  projectId: 'o8bzrb',
   e2e: {
     // baseUrl, etc
     fixturesFolder:'cypress/fixtures' ,
