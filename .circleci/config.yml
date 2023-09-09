@@ -17,7 +17,6 @@ workflows:
           start-command: yarn start
           cypress-command: yarn cypress run --browser chrome --record --parallel
           install-browsers: true
-
           post-steps:
             - store_artifacts:
                path: cypress/reports/mochareports/report.html
